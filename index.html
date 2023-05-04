@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esnek Resim</title>
+    <link rel="stylesheet" href="./Style/main.css">
+    <style>
+
+        body {
+            width: 1100px;
+            background-color: #2F2F2F;
+        }
+
+        h2 {
+            position: absolute;
+            left: 700px;
+            top: 40px;
+            font-size: 32px;
+            color: #F59B00;
+            letter-spacing: 3px;
+        }
+
+        .kodfun_galeri {
+            display: flex;
+            margin-top: 170px;
+            margin-left: 600px;
+            height: 20rem;
+            gap: 1rem;
+        }
+
+        .kodfun_galeri > div {
+            flex: 1;
+            border-radius: 1rem;
+            background-position: center;
+            /* background-repeat: no-repeat; */
+            background-size: auto 100%;
+            transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+        }
+
+        .kodfun_galeri > div:hover {
+            flex: 5;
+        }
+
+        span {
+            position: absolute;
+            left: 800px;
+            top: 550px;
+            display:inline-block;
+            font-size: 56px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h2>Esnek Resim Galerisi</h2>
+    <div class="kodfun_galeri">
+        <div style="background-image: url('photo\ 1.jpg');"></div>
+        <div style="background-image: url('photo\ 2.jpg');"></div>
+        <div style="background-image: url(./Style/Img/photo\ 3.jpg);"></div>
+        <div style="background-image: url('./Style/Img/photo\ 4.jpg');"></div>
+        <div style="background-image: url('./Style/Img/photo\ 5.jpg');"></div>
+    </div>
+    <span>❤️</span>
+    <!-- The endE -->
+</body>
+</html>
